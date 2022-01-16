@@ -14,7 +14,7 @@ class DiGraph():
     def get_TableList(self):
         return self.__tableList
 
-    def get_Edge(self):
+    def get_EdgeSize(self):
         return self.__edge
 
     def add_Edge(self,node1,node2):

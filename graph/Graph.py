@@ -13,7 +13,7 @@ class Graph():
     def get_TableList(self):
         return self.__tableList
 
-    def get_Edge(self):
+    def get_EdgeSize(self):
         return self.__edge
 
     def add_Edge(self,node1,node2):
@@ -30,7 +30,7 @@ if __name__ == '__main__':
     graph.add_Edge(1, 3)
 
 
-    edge = graph.get_Edge()
+    edge = graph.get_EdgeSize()
     nodeList4 = graph.get_NodeList(4)
     tableList = graph.get_TableList()
 
